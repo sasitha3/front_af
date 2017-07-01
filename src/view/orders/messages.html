@@ -1,0 +1,58 @@
+<div class="container-fluid-full">
+    <div class="row-fluid">
+
+        <!-- start: Content -->
+        <div id="content" class="span10">
+
+            <ul class="breadcrumb">
+                <li>
+                    <i class="icon-home"></i>
+                    <a href="index.html">Home</a>
+                    <i class="icon-angle-right"></i>
+                </li>
+                <li><a href="#">Messages</a></li>
+            </ul>
+
+            <div class="row-fluid">
+
+                <div class="span11 noMarginLeft">
+
+                    <div class="message dark">
+
+                        <div class="header">
+                            <h1>"Subject"</h1>
+                            <div class="from"><i class="halflings-icon user"></i> <b>User 1</b> / Email</div>
+                            <div class="date"><i class="halflings-icon time"></i> Today, <b>Time</b></div>
+
+
+                        </div>
+
+                        <div class="content">
+
+                        </div>
+
+                        <div class="attachments">
+                            <ul>
+
+                            </ul>
+                        </div>
+                        <input type="date" />
+                        <form class="replyForm"method="post" action="">
+
+                                <textarea tabindex="3" class="input-xlarge span12" id="message" name="body" rows="12" placeholder="Click here to reply"></textarea>
+
+                                <div class="actions">
+
+                                    <button  ng-submit="sendEmail()" tabindex="3" type="submit" class="btn btn-success">Send message</button>
+
+                                </div>
+                        </form>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div><!--/#content.span10-->
+</div><!--/fluid-row-->
